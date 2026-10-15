@@ -11,7 +11,7 @@ style.css а css файл назван подругому он несможет 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/b34c99db297c512bc030d85902318b2c3848dc62/drink-americano.svg)
 
 
-![Описание фото]()
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/7ad136ea85fef6d278e34ddcf8cc67344073cd97/drink-cappuccino.svg)
 
 ![Описание фото]()
 
