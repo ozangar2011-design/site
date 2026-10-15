@@ -10,7 +10,6 @@ style.css а css файл назван подругому он несможет 
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/b34c99db297c512bc030d85902318b2c3848dc62/drink-americano.svg)
 
-
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/7ad136ea85fef6d278e34ddcf8cc67344073cd97/drink-cappuccino.svg)
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/e56dd8d444ade164d8dbf44b671453ac5a9b010c/drink-espresso.svg)
@@ -27,14 +26,13 @@ style.css а css файл назван подругому он несможет 
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/bf6735f06e69b2caea04251033481097959aca2d/feature-bakery.svg)
 
-![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/feature-cozy.svg
-)
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/feature-cozy.svg)
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/feature-roast.svg)
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/hero.svg)
 
-![Описание фото]()
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/72062ea8ff8bb2453d569760193a983cf01378d9/logo.svg)
 
 ![Описание фото]()
 
