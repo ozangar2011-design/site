@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1440">
+  <title>Меню — Зерно</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.4 4-2 1.3a11 11 0 0 0 5.2 5.2l1.3-2 4 1.4v3a2 2 0 0 1-2.2 2A15.5 15.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2 1-3.3 2-4.4.3 1.2.9 2 1.8 2.4C10.5 8.5 10.8 5.6 12 3z"/></symbol>
+    <symbol id="i-croissant" viewBox="0 0 24 24"><path d="M3 17c0-5.5 4-10 9-10s9 4.5 9 10"/><path d="M3 17l2.5-1.5M21 17l-2.5-1.5M8 9.5l1.5 7M12 7.5v9M16 9.5l-1.5 7"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v9h14v-9"/><path d="M10 19v-5h4v5"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M16 10h2a2.5 2.5 0 0 1 0 5h-2"/><path d="M8 3v3M11 3v3"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".8"/></symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24"><path d="M21 4L3 11l6 2.5L11 20l3-4.5 5 3.5z"/><path d="M9 13.5L21 4"/></symbol>
+    <symbol id="i-vk" viewBox="0 0 24 24"><path d="M3.5 8l3.2 8L10 8"/><path d="M14 8v8M19.5 8L14.5 12l5 4"/></symbol>
+  </defs>
+</svg>
+  <header class="header">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="btn btn--outline" href="#" role="button">Заказать стол</a>
+      <a class="nav__link nav__link--active" href="menu.html" aria-current="page">Меню</a>
+      <a class="nav__link" href="index.html">Главная</a>
+    </nav>
+    <a class="logo" href="index.html" aria-label="Зерно — на главную">
+      <span class="logo__text">Зерно</span>
+      <img class="logo__mark" src="images/logo.svg" alt="" width="36" height="36">
+    </a>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <span class="eyebrow__text">Кофейная карта</span>
+      <h1 class="page-head__title">Наше меню</h1>
+      <p class="page-head__subtitle">Каждый напиток — маленькая история вкуса, бережно созданная нашими бариста.</p>
+    </section>
+
+    <div class="tabs-wrap">
+      <div class="tabs" role="tablist" aria-label="Категории меню">
+        <span class="tabs__item tabs__item--active" role="tab" aria-selected="true">Кофе</span>
+        <span class="tabs__item" role="tab" aria-selected="false">Чай</span>
+        <span class="tabs__item" role="tab" aria-selected="false">Десерты</span>
+      </div>
+    </div>
+
+    <section class="drinks" aria-label="Напитки">
+        <article class="drink">
+          <img class="drink__img" src="images/drink-cappuccino.jpg" alt="Капучино" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Капучино</h3><span class="drink__price">290 ₽</span></div>
+            <p class="drink__text">Нежная шелковистая молочная пенка и идеально сбалансированный двойной эспрессо нашей домашней обжарки.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-latte.jpg" alt="Латте" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Латте</h3><span class="drink__price">310 ₽</span></div>
+            <p class="drink__text">Классический нежный кофейный напиток с легким, мягким вкусом и бархатистой молочной текстурой.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-flat-white.jpg" alt="Флэт уайт" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Флэт уайт</h3><span class="drink__price">330 ₽</span></div>
+            <p class="drink__text">Яркий, бодрящий напиток на основе двойного ристретто с добавлением деликатного слоя горячего молока.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-raf.jpg" alt="Раф кофе" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Раф кофе</h3><span class="drink__price">360 ₽</span></div>
+            <p class="drink__text">Сливочный воздушный десертный напиток, взбитый с добавлением натурального ванильного сахара.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-espresso.jpg" alt="Эспрессо" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Эспрессо</h3><span class="drink__price">190 ₽</span></div>
+            <p class="drink__text">Концентрированный плотный шот с ярким балансом сладости и кислотности, плотным телом и долгим послевкусием.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-americano.jpg" alt="Американо" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Американо</h3><span class="drink__price">220 ₽</span></div>
+            <p class="drink__text">Классический эспрессо, разбавленный горячей очищенной водой для мягкого и чистого раскрытия терруара зерна.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-mocha.jpg" alt="Мокко" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Мокко</h3><span class="drink__price">350 ₽</span></div>
+            <p class="drink__text">Согревающий союз свежего эспрессо, натурального бельгийского шоколада, нежного молока и воздушной пенки.</p>
+          </div>
+        </article>
+        <article class="drink">
+          <img class="drink__img" src="images/drink-iced-latte.jpg" alt="Айс латте" width="296" height="220">
+          <div class="drink__body">
+            <div class="drink__row"><h3 class="drink__title">Айс латте</h3><span class="drink__price">340 ₽</span></div>
+            <p class="drink__text">Прекрасно освежающий холодный кофе с добавлением молока, поданный на кубиках льда.</p>
+          </div>
+        </article>
+    </section>
+
+    <section class="promo">
+      <div class="promo__box">
+        <a class="btn btn--primary btn--lg" href="#" role="button">Выбрать зерно</a>
+        <div class="promo__text">
+          <div class="eyebrow"><span class="eyebrow__line"></span><span class="eyebrow__text">Зерно домой</span></div>
+          <h2 class="promo__title">Понравился кофе? Возьмите пачку свежей обжарки с собой</h2>
+          <p class="promo__desc">Мы с радостью поможем подобрать сорт под ваш любимый способ заваривания и бесплатно помелем зерна прямо у нас на баре.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__col footer__col--socials">
+          <h3 class="footer__title">Соцсети</h3>
+          <div class="socials">
+            <a class="socials__item" href="#" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+            <a class="socials__item" href="#" aria-label="Telegram"><svg class="icon" aria-hidden="true"><use href="#i-telegram"/></svg></a>
+            <a class="socials__item" href="#" aria-label="ВКонтакте"><svg class="icon" aria-hidden="true"><use href="#i-vk"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col footer__col--nav">
+          <h3 class="footer__title">Разделы</h3>
+          <a class="footer__link" href="index.html">Главная</a>
+          <a class="footer__link" href="menu.html">Меню</a>
+        </div>
+        <div class="footer__brand">
+          <a class="logo logo--footer" href="index.html" aria-label="Зерно — на главную">
+            <span class="logo__text">Зерно</span>
+            <img class="logo__mark" src="images/logo.svg" alt="" width="30" height="30">
+          </a>
+          <p class="footer__tagline">Бережно обжариваем зерна, печем круассаны и создаем уют каждый день для вашего лучшего настроения.</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>Сделано с любовью к деталям</span>
+        <span>© 2026 Зерно. Все права защищены.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
