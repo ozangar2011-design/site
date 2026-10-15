@@ -27,11 +27,12 @@ style.css а css файл назван подругому он несможет 
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/bf6735f06e69b2caea04251033481097959aca2d/feature-bakery.svg)
 
-![Описание фото]()
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/feature-cozy.svg
+)
 
-![Описание фото]()
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/feature-roast.svg)
 
-![Описание фото]()
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/2ab6b024d03d842eeb6ff266ec23a1ecd6470418/hero.svg)
 
 ![Описание фото]()
 
