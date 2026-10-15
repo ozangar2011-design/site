@@ -34,6 +34,5 @@ style.css а css файл назван подругому он несможет 
 
 ![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/72062ea8ff8bb2453d569760193a983cf01378d9/logo.svg)
 
-![Описание фото]()
+![Описание фото](https://raw.githubusercontent.com/ozangar2011-design/site/ab69e1efd112499d6c4c872f95132b36f2949e9a/map.svg)
 
-![Описание фото]()
